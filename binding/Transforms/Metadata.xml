@@ -1,0 +1,39 @@
+﻿<metadata>
+	<attr path="/api/package[@name='com.newrelic.agent.android']" name="managedName">NewRelic.Agent.Android</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.activity']" name="managedName">NewRelic.Agent.Android.Activity</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.activity.config']" name="managedName">NewRelic.Agent.Android.Activity.Config</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.api.common']" name="managedName">NewRelic.Agent.Android.Api.Common</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.api.v1']" name="managedName">NewRelic.Agent.Android.Api.V1</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.api.v2']" name="managedName">NewRelic.Agent.Android.Api.V2</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.background']" name="managedName">NewRelic.Agent.Android.Background</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.harvest']" name="managedName">NewRelic.Agent.Android.Harvest</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.harvest.type']" name="managedName">NewRelic.Agent.Android.Harvest.Type</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.instrumentation']" name="managedName">NewRelic.Agent.Android.Instrumentation</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.instrumentation.httpclient']" name="managedName">NewRelic.Agent.Android.Instrumentation.HttpClient</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.instrumentation.io']" name="managedName">NewRelic.Agent.Android.Instrumentation.IO</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.logging']" name="managedName">NewRelic.Agent.Android.Logging</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.measurement']" name="managedName">NewRelic.Agent.Android.Measurement</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.measurement.consumer']" name="managedName">NewRelic.Agent.Android.Measurement.Consumer</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.measurement.http']" name="managedName">NewRelic.Agent.Android.Measurement.Http</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.measurement.producer']" name="managedName">NewRelic.Agent.Android.Measurement.Producer</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.metric']" name="managedName">NewRelic.Agent.Android.Metric</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.sample']" name="managedName">NewRelic.Agent.Android.Sample</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.stats']" name="managedName">NewRelic.Agent.Android.Stats</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.tracing']" name="managedName">NewRelic.Agent.Android.Tracing</attr>
+	<attr path="/api/package[@name='com.newrelic.agent.android.util']" name="managedName">NewRelic.Agent.Android.Util</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson']" name="managedName">NewRelic.Google.Gson</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.annotations']" name="managedName">NewRelic.Google.Gson.Annotations</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.reflect']" name="managedName">NewRelic.Google.Gson.Reflect</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.stream']" name="managedName">NewRelic.Google.Gson.Stream</attr>
+
+	<attr path="/api/package[@name='com.newrelic.agent.android.harvest']/class[@name='Harvester.State']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.internal.bind']/class[@name='CollectionTypeAdapterFactory.Adapter']/method[@name='read']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.internal.bind']/class[@name='DateTypeAdapter']/method[@name='read']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.internal.bind']/class[@name='MapTypeAdapterFactory.Adapter']/method[@name='read']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.internal.bind']/class[@name='SqlDateTypeAdapter']/method[@name='read']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson.internal.bind']/class[@name='TimeTypeAdapter']/method[@name='read']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.newrelic.com.google.gson']/class[@name='JsonStreamParser']/method[@name='next']" name="managedReturn">Java.Lang.Object</attr>
+	<remove-node path="/api/package[@name='com.newrelic.com.google.gson.internal.bind']/class[@name='TypeAdapters.EnumTypeAdapter']/method[@name='write']" />
+	<remove-node path="/api/package[@name='com.newrelic.com.google.gson.internal']/class[@name='LinkedTreeMap']/method[@name='entrySet']" />
+	<remove-node path="/api/package[contains(@name, '.internal')]" />
+</metadata>
